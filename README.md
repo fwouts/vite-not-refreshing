@@ -1,5 +1,7 @@
 # Bug report (Vite 3)
 
+https://github.com/vitejs/vite/issues/9534
+
 When the initial render fails because of a missing import, fixing the issue does not automatically re-render the page. It needs to be force-refreshed manually.
 
 To reproduce:
